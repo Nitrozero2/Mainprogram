@@ -1,4 +1,4 @@
-public abstract class Shape {
+public class Shape {
     protected Point centerPoint;
     private static int count = 0;
     public Shape(Point centerPoint) {
@@ -17,3 +17,4 @@ public abstract class Shape {
         return "Tâm: " + centerPoint.toString();
     }
 }
+
